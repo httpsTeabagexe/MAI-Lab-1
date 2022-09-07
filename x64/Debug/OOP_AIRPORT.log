@@ -1,0 +1,14 @@
+﻿  main.cpp
+C:\Users\Nail\source\repos\OOP_AIRPORT\Header.h(13,21): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Source.cpp
+C:\Users\Nail\source\repos\OOP_AIRPORT\Header.h(13,21): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Nail\source\repos\OOP_AIRPORT\Source.cpp(38,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Nail\source\repos\OOP_AIRPORT\Source.cpp(40,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Nail\source\repos\OOP_AIRPORT\Source.cpp(54,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Nail\source\repos\OOP_AIRPORT\Source.cpp(55,53): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Nail\source\repos\OOP_AIRPORT\Source.cpp(78,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Nail\source\repos\OOP_AIRPORT\Source.cpp(82,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Nail\source\repos\OOP_AIRPORT\Source.cpp(85,28): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Nail\source\repos\OOP_AIRPORT\Source.cpp(88,26): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  OOP_AIRPORT.vcxproj -> C:\Users\Nail\source\repos\OOP_AIRPORT\x64\Debug\OOP_AIRPORT.exe
