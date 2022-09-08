@@ -1,10 +1,9 @@
 #include "Header.h"
-using namespace std;
 TAObject::TAObject(float x, float y) {
     this->x = x;
     this->y = y;
 }
-//TAObject::~TAObject(){};
+TAObject::~TAObject(){};
 TLA::TLA(float x, float y, float V, float xc, float yc)
     : TAObject(x, y) {
     this->xc = xc;
@@ -45,7 +44,7 @@ void THelicopter::move(float t, int a) {
 TAirport::TAirport(float x, float y, float length)
     : TAObject(x, y) {
     this->length = length;
-    LA = new TLA * [num];
+    LA = new TLA* [num];    
     float xc, yc, V;
     srand(time(NULL));
     for (int i = 0; i < num; i++) {
@@ -108,11 +107,6 @@ void TAirport::Do(float t0, float tk) {
                 }
             }
             LA[i]->move(time, LA[i]->a);
-            // if ((LA[i]->landed)) {
-            //     LA[i]->type? FILE << "Aircraft " << i << " landed at " << time << " sec." << endl
-            //     : FILE << "Helicopter " << i << " landed at " << time << " sec." << endl;
-            // }
-
             //output to file aircraft type and number, time of landing
             if (LA[i]->landed) {
                 if (LA[i]->type) 

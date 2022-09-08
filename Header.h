@@ -6,7 +6,7 @@
 #define PI 3.14159265
 const float dt = 0.01;
 const short num = 20;
-
+using namespace std;
 class TAObject {
 public:
     float x, y;
